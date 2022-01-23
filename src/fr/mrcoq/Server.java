@@ -40,9 +40,6 @@ public class Server {
                     Scanner reader = new Scanner(inputStream, StandardCharsets.UTF_8);
                     PrintWriter writer = new PrintWriter(new OutputStreamWriter(outputStream));
 
-                    writer.println("Welcome to the sniffer app");
-                    writer.flush();
-
                     Timer timer = new Timer();
 
                     timer.schedule(new TimerTask() {
